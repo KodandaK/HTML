@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<HTML>
+<BODY>
+<center>
+<h1> Awesome Online videos </h1>
+<img src="C:\Users\Kodanda\Desktop\ASSESMENTS\HTML\guar.png" width="350" height="200" controls>
+<hr> 
+
+
+<div style="text-align:center"> 
+ <br><br>
+  <video id="video1" width="420">
+    <source src="D:\Songs&Videos\Videos\Happiness.mp4" type="video/mp4">
+  </video>
+</div> 
+<button onclick="pPlay()">Play</button> 
+<button onclick="pPause()">Pause</button> 
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function pPlay() { 
+        myVideo.play(); 
+} 
+function pPause() { 
+        myVideo.pause();     
+}
+</script> 
+
+</center>
+</BODY>
+</HTML>
+
+
+
